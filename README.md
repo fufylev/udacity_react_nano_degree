@@ -1,1 +1,1 @@
-# All code created diring training on Udacity React Nano Degree Program
+# All commits created diring Udacity React Nano Degree Program
