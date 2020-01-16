@@ -1,1 +1,1 @@
-# All commits created diring Udacity React Nano Degree Program
+# All commits created during Udacity React Nano Degree Program
