@@ -1,12 +1,12 @@
-import {getInitialData} from "../utils/api";
-import {receiveUsers} from "./users";
-import {receiveTweets} from "./tweets";
-import { SET_AUTHED_USER, setAuthedUser } from "./authedUser";
+import { getInitialData } from '../utils/api';
+import { receiveUsers } from './users';
+import { receiveTweets } from './tweets';
+import { setAuthedUser } from './authedUser';
 
 const AUTHED_ID = 'dan_abramov';
 
 export function handleInitialData() {
-    return(dispatch) => {
+    return (dispatch) => {
         return getInitialData()
             .then(({users, tweets}) => {
                 dispatch(receiveUsers(users));
