@@ -1,6 +1,6 @@
 # Chirper
 
-##Project Walkthrough:
+## Project Walkthrough:
 
 The project I'm be building is called “Chirper”. 
 Building this simple Twitter clone will help me practice improving the predictability of an 
